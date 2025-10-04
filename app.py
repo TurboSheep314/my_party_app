@@ -9,9 +9,13 @@ scope = [
     "https://spreadsheets.google.com/feeds",
     "https://www.googleapis.com/auth/drive"
 ]
-
+if "GOOGLE_CREDENTIALS" in st.secrets:
+    creds_dict = json.loads(st.secrets["GOOGLE_CREDENTIALS"])
+    creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
+else:
+    creds = ServiceAccountCredentials.from_json_keyfile_name("gcreds.json", scope)
 # Load local credentials file (in same folder as app.py)
-creds = ServiceAccountCredentials.from_json_keyfile_name("gcreds.json", scope)
+#creds = ServiceAccountCredentials.from_json_keyfile_name("gcreds.json", scope)
 client = gspread.authorize(creds)
 #st.write("Accessible sheets:")
 #for spreadsheet in client.openall():
