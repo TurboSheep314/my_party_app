@@ -61,7 +61,7 @@ This is a great opportunity to meet Jon in person and hear about his vision.
 Let’s finish strong — thank you for standing with us!
 
 
-👇 Fill out the form below to RSVP and pledge your donation.
+👇 Fill out the form below and click the links RSVP and pledge your donation.
 """)
 
 # ---------- RSVP & Donation Form ----------
@@ -69,7 +69,7 @@ st.subheader("RSVP & Donation Form")
 with st.form("rsvp_form", clear_on_submit=True):
     name = st.text_input("Your Name", max_chars=50)
     donation = st.number_input("How much are you planning to donate?", min_value=0, step=1)
-    rsvp = st.radio("Will you be attending the party?", ["Yes", "No"])
+    rsvp = st.radio("Will you be attending the fireside chat?", ["Yes", "No"])
     submitted = st.form_submit_button("Submit")
 
     if submitted and name:
