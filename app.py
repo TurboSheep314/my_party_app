@@ -61,7 +61,8 @@ This is a great opportunity to meet Jon in person and hear about his vision.
 Let’s finish strong — thank you for standing with us!
 
 
-👇 Fill out the form below and click the links RSVP and pledge your donation.
+👇 Fill out the form below and click the links to RSVP and pledge your donation.  
+*The form only lets me know how effective I have been.*
 """)
 
 # ---------- RSVP & Donation Form ----------
