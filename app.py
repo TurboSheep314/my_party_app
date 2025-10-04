@@ -78,6 +78,9 @@ with st.form("rsvp_form", clear_on_submit=True):
 
 # ---------- External Links ----------
 st.markdown("""
+👇 Use these links to donate and RSVP to Josh.
+           
+
 🔗 [RSVP Fireside Chat with Jonathan Greene](https://www.evite.com/event/017BUOV7MBWAKUYCOEPQSMXFTQJZRY?...)  
 🔗 [Jonathan's Website for Donations](https://www.jonathan4newton.com)
 """)
