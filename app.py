@@ -93,11 +93,11 @@ try:
 
     st.metric("Total Committed Donations ($)", int(total_donation))
 
-    st.write("### People Attending:")
-    if rsvp_list:
-        for person in rsvp_list:
-            st.write(f"✅ {person}")
-    else:
-        st.write("No one has RSVP’d yet.")
+    #st.write("### People Attending:")
+    #if rsvp_list:
+       # for person in rsvp_list:
+           # st.write(f"✅ {person}")
+    #else:
+        #st.write("No one has RSVP’d yet.")
 except Exception as e:
     st.warning(f"Unable to load summary data: {e}")
