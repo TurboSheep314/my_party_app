@@ -54,7 +54,7 @@ We’re raising funds for one last mailer to reach voters — and printing and p
 
 👉 Every dollar counts — even $5 makes a difference and helps us get closer to our goal.
 
-In addition, Josh Mandel is hosting a fireside chat with Jon at his home.  
+In addition, Josh Mandel-Brehm is hosting a fireside chat with Jon at his home.  
 This is a great opportunity to meet Jon in person and hear about his vision.  
 **Suggested donation: \\$50 to \\$250.**
 
@@ -83,7 +83,7 @@ st.markdown("""
            
 
 🔗 [RSVP Fireside Chat with Jonathan Greene](https://www.evite.com/event/017BUOV7MBWAKUYCOEPQSMXFTQJZRY?...)  
-🔗 [Jonathan's Website for Donations](https://www.jonathan4newton.com)
+🔗 [Jonathan's Website for Donations](https://donate.campaigndeputy.com/donate/jonathan4newton)
 """)
 
 # ---------- Summary Section ----------
